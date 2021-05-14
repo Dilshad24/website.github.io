@@ -235,7 +235,7 @@ body{
 }
 .section6{
 	width: 100%;
-	height: 205vh;
+	height: 130rem;
 	background-image: url("../DESIGNING-UI/Group 18151.png");
 	background-repeat: no-repeat;
 	background-position: center;
@@ -377,13 +377,133 @@ margin-bottom: 5rem;
 }
 .section10row{
 	margin-top: 5rem;
-	margin-right: 10rem;
-	margin-left: 10rem;
+	margin-right: 5rem;
+	margin-left: 5rem;
+	margin-bottom: 5rem;
+}
+.section10col{
+	width: 100%;
+	display: flex;justify-content: center;align-items: center;
+	margin-bottom: 7rem;
+
+
+}
+.section10colcon1{
+	background: url("../DESIGNING-UI/MOBILE/K (4).png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 33rem;
+	height: 11.5rem;
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+.section10colcon2{
+	background: url("../DESIGNING-UI/MOBILE/K (5).png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 33rem;
+	height: 11.5rem;
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+.section10colcon3{
+	background: url("../DESIGNING-UI/MOBILE/K (6).png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 33rem;
+	height: 11.5rem;
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+.section10colcon4{
+	background: url("../DESIGNING-UI/MOBILE/K (7).png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 33rem;
+	height: 11.5rem;
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+.section10colcon5{
+	background: url("../DESIGNING-UI/MOBILE/K (8).png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 33rem;
+	height: 11.5rem;
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+.section10colcon6{
+	background: url("../DESIGNING-UI/MOBILE/K (9).png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 33rem;
+	height: 11.5rem;
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+.section10colcon7{
+	background: url("../DESIGNING-UI/MOBILE/K (10).png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 33rem;
+	height: 11.5rem;
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+.section10colcon8{
+	background: url("../DESIGNING-UI/MOBILE/K (11).png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 33rem;
+	height: 11.5rem;
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+.section10colcon9{
+	background: url("../DESIGNING-UI/MOBILE/K (12).png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 33rem;
+	height: 11.5rem;
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+.section10colcon10{
+	background: url("../DESIGNING-UI/MOBILE/K (13).png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 33rem;
+	height: 11.5rem;
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+.section10colcon11{
+	background: url("../DESIGNING-UI/MOBILE/K (14).png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 33rem;
+	height: 11.5rem;
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+.section10colcon12{
+	background: url("../DESIGNING-UI/MOBILE/K (15).png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 33rem;
+	height: 11.5rem;
+	margin-left: 1rem;
+	margin-right: 1rem;
 }
 .section10colcon{
-	width: 100%;
-	height: 10rem;
-	background: blue;
+	display: flex;align-items: center;
+}
+.section10colcon p{
+	margin-left: 13rem;
+
+  font-size: 2.2rem;	
+  margin-right: 3rem;
 }
 @media only screen and (max-width: 768px) {
 
@@ -572,7 +692,7 @@ margin-bottom: 5rem;
 }
 .section6{
 	width: 100%;
-	height: 450vh;
+	height: 365rem;
 	background-image: url("../DESIGNING-UI/MOBILE/Group 1815-1.png");
 	background-repeat: no-repeat;
 	background-position: center;
@@ -700,6 +820,29 @@ margin-bottom: 5rem;
 }
 .section8img2{
 	padding-top: 2rem;
+}
+
+.section10{
+	margin-top: 2rem;
+}
+.section10row{
+	margin-top: 5rem;
+	margin-right: 1rem;
+	margin-left: 1rem;
+	margin-bottom: 5rem;
+}
+.section10col{
+	width: 100%;
+	display: flex;justify-content: center;align-items: center;
+	margin-bottom: 7rem;
+
+
+}
+.section10colcon1,.section10colcon2,.section10colcon3,.section10colcon4,.section10colcon5,.section10colcon6,.section10colcon7,.section10colcon8,.section10colcon9,.section10colcon10,.section10colcon11,.section10colcon12{
+	width: 40rem;
+	height: 12rem;
+	margin-left: 0rem;
+	margin-right: 0rem;
 }
 }
 
