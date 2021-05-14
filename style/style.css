@@ -1,0 +1,705 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	user-select: none;
+
+}
+:root{
+	--font1:'Marck Script', cursive;
+	--font2:'Parisienne', cursive;
+	--font3:'Sacramento', cursive;
+	--font4:'Satisfy', cursive;
+	--font5:'Tangerine', cursive;
+	--font6:'Yellowtail', cursive;
+
+}
+html{
+	scroll-behavior: smooth;
+	font-size: 62.5%;
+}
+body{
+}
+.section1{
+	width: 100%;
+	height: 140vh;
+	background-image: url("../DESIGNING-UI/ui-Designing-2.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+}
+.logoimg{
+	margin-top: 5rem;
+	margin-left: 10rem;
+	height: 7rem;
+}
+.section1h1{
+	margin-top: 17rem;
+	font-size: 4.9rem;
+	color: black;
+	margin-left: 18rem;
+}
+.section1p1{
+	margin-top: 4rem;
+	font-size: 2rem;
+	color: black;
+	margin-left: 18rem;
+}
+.section1p2{
+	display: none;
+}
+
+.section1btndiv{
+	background-image: url("../DESIGNING-UI/Rectangle 154.png");
+	background-repeat: no-repeat;
+	background-size: 180px 60px;
+	height: 6rem;
+	width: 18rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 2rem;
+	color: white;
+	margin-left: 18rem;
+	margin-top: 7rem;
+}
+.section1btndiv a{
+	text-decoration: none;
+	color: white;
+}
+
+.section1col{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 7rem;
+}
+.section1row{
+	padding-right: 15rem;
+	padding-left: 15rem;
+}
+
+.img11{
+	height: 17rem;
+}
+.imgdiv11{
+	width: 100%;
+	margin-top: -7.5rem;
+	overflow: hidden;
+}
+.imgdiv11 img{
+	float: right;
+	height: 15rem;
+	margin-right: -6rem;
+}
+.imgdiv12{
+	width: 100%;
+	margin-top: -5rem;
+
+}
+.imgdiv12 img{
+	float: right;
+	height: 7rem;
+	margin-right: 30rem;
+}
+
+.section2{
+	width: 100%;
+	height: 100vh;
+
+}
+.section2col{
+	margin-top: -5rem;
+}
+.section2row{
+	width: 100%;
+
+}
+.section2colp1{
+	margin-left: 9rem;
+	font-size: 3.5rem;
+	border-left: .5rem solid #58B5ED;
+	padding-left: 4rem;
+}
+.section2colp2{
+	margin-top: 3rem;
+	margin-left: 9rem;
+	font-size: 2.2rem;
+	line-height: 5rem;
+	margin-right: 1rem;
+	padding-bottom: 4rem;
+	
+}
+.section2colcon{
+	display: flex;
+	align-items: center;
+	margin-left: 9.5rem;
+}
+.section2colcon img{
+	height: 2rem;
+	margin-top: -1.4rem;
+}
+.section2colconp1{
+	font-size: 2.2rem;
+	margin-left: 5rem;
+}
+.section4{
+	margin-top: 2rem;
+}
+.section4div1{
+	width: 100%;
+}
+.section4img1{
+	float: left;
+	height: 48rem;
+	margin-left: 2rem;
+}
+.section4div2{
+	width: 100%;
+}
+.section4img2{
+	float: right;
+	height: 48rem;
+	margin-right: 2rem;
+}
+
+.section2btndiv{
+	background-image: url("../DESIGNING-UI/MOBILE/K (23).png");
+	background-repeat: no-repeat;
+	background-size: 180px 60px;
+	height: 6rem;
+	width: 18rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 2rem;
+	color: white;
+	margin-left: 14rem;
+	margin-top: 3rem;
+}
+.section2btndiv a{
+	text-decoration: none;
+	color: white;
+}
+
+.img22{
+	height: 50rem;float: right;
+	margin-right: -4rem;
+	margin-top: 1rem;
+}
+.imgdiv13{
+	width: 100%;
+	margin-top: -5rem;
+
+}
+.imgdiv13 img{
+	float: left;
+	height: 15rem;
+	margin-left: -8rem;
+}
+.section3{
+	margin-top: 10rem;
+}
+.section3p{
+	margin-left: 12rem;
+	font-size: 3.5rem;
+	border-left: .5rem solid #58B5ED;
+	padding-left: 4rem;
+}
+.section3row{
+	margin-left: 10rem;
+	margin-right: 10rem;
+	margin-top: 5rem;
+}
+
+.section3img4{
+	padding-top: 10rem;
+}
+
+.section5{
+	margin-top: 100rem;
+
+}
+
+.section3adiv1{
+	width: 100%
+}
+.section3adiv1 a{
+	float: right;
+	font-size: 3rem;color: black;
+	margin-right: 10rem;
+	text-decoration: none;
+	font-weight: bold;
+}
+.section6{
+	width: 100%;
+	height: 205vh;
+	background-image: url("../DESIGNING-UI/Group 18151.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+}
+.section6helper{
+	height: 10rem;
+}
+.section6p{
+	margin-left: 12rem;
+	font-size: 3.5rem;
+	border-left: .5rem solid #58B5ED;
+	padding-left: 4rem;
+}
+.section6row{
+	margin-left: 3rem;
+	margin-right: 3rem;
+	margin-top: 7rem;
+}
+.section6col{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 4rem;
+}
+.section6col img{
+	height: 45rem;
+}
+.section6adiv{
+	width: 100%;
+
+}
+.section6adiv a{
+	text-decoration: none;
+	float: right;
+	font-size: 3rem;
+	margin-right: 10rem;
+}
+.section7{
+	margin-top: 5rem;
+	height: 100vh
+	width:100%;
+}
+.section7p1{
+	margin-left: 12rem;
+	font-size: 3.5rem;
+	border-left: .5rem solid #58B5ED;
+	padding-left: 4rem;
+}
+.section7p2{
+	margin-left: 20rem;
+	margin-right: 10rem;
+	font-size: 2.3rem;
+}
+.section7row {
+	margin-top: 0rem;
+}
+.section7col{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10rem;
+}
+.section7img1{
+	height: 45rem;
+}
+.section7img2{
+	height: 45rem;
+}
+.section7img3{
+	height: 45rem;
+}
+.section7img4{
+	height: 45rem;
+}
+.section8{
+	width: 100%;
+	margin-top: 10rem;
+	margin-bottom: 10rem;
+
+}
+.section8maindiv{
+	margin-right: 10rem;
+	margin-left: 10rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 10rem;
+	border-radius: 1rem;
+	box-shadow: 1px 2px 10px 6px rgba(0,0,0,0.26);
+-webkit-box-shadow: 1px 2px 10px 6px rgba(0,0,0,0.26);
+-moz-box-shadow: 1px 2px 10px 6px rgba(0,0,0,0.26);
+margin-bottom: 5rem;
+}
+.section8 p{
+	font-size: 2.5rem;
+}
+.section8btndiv{
+	background-image: url("../DESIGNING-UI/Rectangle 154.png");
+	background-repeat: no-repeat;
+	background-size: 180px 60px;
+	height: 6rem;
+	width: 18rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 2rem;
+	color: white;
+	margin-left: 18rem;
+	
+}
+.section8btndiv a{
+	text-decoration: none;
+	color: white;
+}
+.section8row{
+	margin-left: 10rem;
+}
+.section8col{
+	width: 100%;
+}
+.section8img1{
+	height: 65rem;
+	float: right;
+}
+.section8img2{
+	padding-top: 28rem;
+}
+.section9{
+	width: 100%;
+	margin-top: 5rem;
+}
+.section9 img{
+	width: 100%;
+}
+.section10{
+	margin-top: 5rem;
+}
+.section10row{
+	margin-top: 5rem;
+	margin-right: 10rem;
+	margin-left: 10rem;
+}
+.section10colcon{
+	width: 100%;
+	height: 10rem;
+	background: blue;
+}
+@media only screen and (max-width: 768px) {
+
+	.section1{
+	width: 100%;
+	height: 100vh;
+	
+}
+	.logoimg{
+	margin-top: 3rem;
+	margin-left: 3rem;
+	height: 6rem;
+}
+
+.section1h1{
+	margin-top: 2.5rem;
+	font-size: 3.5rem;
+	margin-left: 3rem;
+}
+.section1p1{
+	display: none;
+}
+.section1p2{
+	display: block;
+	margin-top: 1.7rem;
+	font-size: 1.7rem;
+	margin-left: 3rem;
+	line-height: 4rem;
+}
+.section1btndiv{
+	background-size: 150px 50px;
+	height: 5rem;
+	width: 15rem;
+	font-size: 1.5rem;
+	margin-left: 3rem;
+	margin-top: 2rem;
+}
+.section1row{
+	padding-right: 5rem;
+	padding-left: 5rem;
+}
+.section1col{
+	margin-top: 2rem;
+}
+.img11{
+	height: 10rem;
+}
+.imgdiv11{
+	display: none;
+}
+.imgdiv12{
+	width: 100%;
+	margin-top: 1rem;
+
+}
+.imgdiv12 img{
+	float: right;
+	height: 6rem;
+	margin-right: 2rem;
+}
+.section2col{
+	margin-top: -2rem;
+}
+.section2row{
+	width: 100%;
+
+}
+.section2colp1{
+	margin-left: 2rem;
+	font-size: 2.3rem;
+	font-weight: bold;
+	border-left: .4rem solid #58B5ED;
+	padding-left: 2rem;
+}
+.section2colp2{
+	margin-top: 3rem;
+	margin-left: 2rem;
+	font-size: 2rem;
+	line-height: 5rem;
+	margin-right: -1rem;
+	padding-bottom: 1.5rem;
+	
+}
+.section2colcon{
+	display: flex;
+	align-items: center;
+	margin-left: 1rem;
+	width: 100%;
+}
+.section2colcon img{
+	height: 1.6rem;
+	margin-top: -1rem;
+}
+.section2colconp1{
+	font-size: 1.5rem;
+	margin-left: 1rem;
+
+}
+
+.section2btndiv{
+	background-size: 170px 50px;
+	height: 5rem;
+	width: 17rem;
+	font-size: 1.5rem;
+	margin-left: 3rem;
+	margin-top: 2rem;
+}
+.section2btndiv a{
+	text-decoration: none;
+	color: white;
+}
+.section2col2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.img22{
+	height: 25rem;float: none;
+	margin-right: 0rem;
+	margin-top: 4rem;
+
+}
+.imgdiv13{
+	display: none;
+}
+
+.section3{
+	margin-top: 46rem;
+}
+.section3p{
+	margin-left: 2rem;
+	font-size: 2.5rem;
+	border-left: .6rem solid #58B5ED;
+	padding-left: 3rem;
+}
+.section3row{
+	margin-left: 0rem;
+	margin-right: 0rem;
+	margin-top: 5rem;
+}
+.section3col{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.section3img3{
+	padding-top:5rem;
+}
+.section3img4{
+	padding-top: 0rem;
+}
+
+.section4{
+	margin-top: 5rem;
+}
+.section4div1{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.section4img1{
+	float: none;
+	height:20rem;
+	margin-left:0rem;
+}
+.section4div2{
+	width: 100%;
+	margin-top: 5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.section4img2{
+	float: none;
+	height: 20rem;
+	margin-right: 0rem;
+}
+.section5{
+	margin-top: 0rem;
+
+}
+.section3-1{
+	margin-top: -20rem;
+}
+.section6{
+	width: 100%;
+	height: 490vh;
+	background-image: url("../DESIGNING-UI/MOBILE/Group 1815-1.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+}
+.section6helper{
+	height: 20rem;
+}
+.section6p{
+	margin-left: 2rem;
+	font-size: 3rem;
+	border-left: .5rem solid #58B5ED;
+	padding-left: 3rem;
+}
+.section6row{
+	margin-left: 3rem;
+	margin-right: 3rem;
+	margin-top: 7rem;
+}
+.section6col{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 4rem;
+}
+.section6col img{
+	height: 45rem;
+}
+.section3adiv1{
+	display: none;
+}
+.section7{
+	margin-top: 0rem;
+}
+.section7{
+	margin-top: 5rem;
+	height: 100vh
+	width:100%;
+}
+.section7p1{
+	margin-left: 3rem;
+	font-size: 2.5rem;
+	border-left: .5rem solid #58B5ED;
+	padding-left: 2rem;
+}
+.section7p2{
+	margin-left: 3rem;
+	margin-right: .5rem;
+	font-size: 1.5rem;
+	line-height: 4rem;
+}
+.section7row {
+	margin-top: -4rem;
+}
+.section7col{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 5rem;
+}
+.section7img1{
+	height: 30rem;
+}
+.section7img2{
+	height: 30rem;
+}
+.section7img3{
+	height: 30rem;
+}
+.section7img4{
+	height: 30rem;
+}
+.section8{
+	width: 100%;
+	margin-top: 10rem;
+	margin-bottom: 1rem;
+
+}
+.section8maindiv{
+	margin-right: 2rem;
+	margin-left: 2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 5rem;
+	border-radius: 1rem;
+	box-shadow: 1px 2px 10px 6px rgba(0,0,0,0.26);
+-webkit-box-shadow: 1px 2px 10px 6px rgba(0,0,0,0.26);
+-moz-box-shadow: 1px 2px 10px 6px rgba(0,0,0,0.26);
+margin-bottom: 5rem;
+}
+.section8 p{
+	font-size: .7rem;
+	padding-top: .5rem;
+}
+.section8btndiv{
+	background-image: url("../DESIGNING-UI/Rectangle 154.png");
+	background-repeat: no-repeat;
+	background-size: 75px 20px;
+	height: 2rem;
+	width: 7.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1rem;
+	color: white;
+	margin-left: 2rem;
+	
+}
+.section8btndiv a{
+	text-decoration: none;
+	color: white;
+}
+.section8row{
+	margin-left: 0rem;
+}
+.section8col{
+	width: 100%;
+	display: flex;justify-content: center;align-items: center;
+}
+.section8img1{
+	height: 40rem;
+	float: none;
+}
+.section8img2{
+	padding-top: 2rem;
+}
+}
+
+
