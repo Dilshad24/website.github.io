@@ -379,7 +379,7 @@ margin-bottom: 5rem;
 	margin-top: 5rem;
 	margin-right: 5rem;
 	margin-left: 5rem;
-	margin-bottom: 5rem;
+	margin-bottom: 4rem;
 }
 .section10col{
 	width: 100%;
@@ -501,9 +501,228 @@ margin-bottom: 5rem;
 }
 .section10colcon p{
 	margin-left: 13rem;
-
   font-size: 2.2rem;	
   margin-right: 3rem;
+}
+.section10lastdiv{
+	background-image: url("../DESIGNING-UI/ui-Designing-2.png");
+	margin-right: 11rem;
+	margin-left: 11rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 12rem;
+	border-radius: 1rem;
+	box-shadow: 1px 2px 10px 6px rgba(0,0,0,0.26);
+-webkit-box-shadow: 1px 2px 10px 6px rgba(0,0,0,0.26);
+-moz-box-shadow: 1px 2px 10px 6px rgba(0,0,0,0.26);
+margin-bottom: 5rem;
+}
+.section10lastdiv p{
+	font-size: 3rem;
+	font-weight: bold;
+}
+.section10btndiv{
+	background-image: url("../DESIGNING-UI/Rectangle 154.png");
+	background-repeat: no-repeat;
+	background-size: 180px 60px;
+	height: 6rem;
+	width: 18rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 2rem;
+	color: white;
+	margin-left: 18rem;
+	
+}
+.section10btndiv a{
+	text-decoration: none;
+	color: white;
+}
+.section11{
+	width: 100%;
+	height: 85rem;
+	
+}
+.section11div1{
+	width: 100%;
+	height: 100%;
+	background-image: url("../DESIGNING-UI/Group 1815-crop.png");
+	background-repeat: no-repeat;
+	background-size:  contain;
+	padding-top: 5rem;
+}
+.section11p{
+
+}
+.section13{
+	width: 100%;
+	height: 20rem;
+	background: #58B5ED;
+	display: flex;justify-content: center;align-items: center;
+}
+.section13 p{
+	font-size: 4rem;
+	color: white;
+}
+.section13 a{
+	margin-left: 5rem;
+	text-decoration: none;
+	color: white;
+	font-size: 2rem;
+	padding: 1.7rem 5.5rem;
+	background: #1b2441;
+	border-radius: 5rem;
+}
+.section14{
+	width: 100%;
+	background: #1b2441;
+	padding-left: 7rem;
+	padding-top: 7rem;
+	overflow: hidden;
+	height: 66rem;
+}
+.section14col1 p{
+	color: #58B5ED;
+	font-size: 3rem;
+	padding-left: 1.3rem;
+}
+.section14colchild ul{
+	list-style-type: none;
+}
+.section14colchild ul li{
+	margin-bottom: .5rem;
+}
+.section14colchild ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 1.3rem;
+}
+.section14col2 p:nth-child(1){
+	color: #58B5ED;
+	font-size: 3rem;
+
+}
+.section14col2 p:nth-child(2){
+	color: white;
+	font-size: 1.5rem;
+	margin-top: 4rem;
+}
+.section14col2 p:nth-child(3){
+	color: white;
+	font-size: 1.5rem;
+}
+.section14col2c1{
+	display: flex;
+}
+.section14col2c1{
+	display: flex;
+	align-items: center;
+	font-size: 1.2rem;
+}
+.section14col2c1 img{
+	height: 2rem;
+	margin-bottom: -2.7rem;
+}
+.section14col2c1 p{
+	margin-left: 1.5rem;
+}
+
+.section14col2c2{
+	margin-left: 1rem;
+	display: flex;
+	align-items: center;
+	font-size: 1.2rem;
+}
+.section14col2c2{
+	display: flex;
+}
+.section14col2c2 a{
+	margin-top: 3rem;
+	text-decoration: none;
+	margin-right: 4rem;
+	padding: .7rem 3.5rem;
+	background: white;
+	font-weight: bold;
+	border-radius: 2rem;
+	font-size: 1.5rem;
+	color: #1b2441;
+}
+.section142div{
+	width: 100%;
+	height: 40rem;
+	margin-top: -2rem;
+}
+.section142divc1{
+	margin-top: -15rem;
+	float: right;
+	height: 50rem;
+	width: 50rem;
+	background: url("../DESIGNING-UI/Path 200-1.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+
+
+}
+.section142divc1imgcon1{
+	float: right;
+	margin-right: 9rem;
+}
+.section142divc1imgcon2{
+	float: right;
+	margin-right: 3rem;
+	margin-top: 1rem;
+}
+.section142divc1imgcon3{
+	float: right;
+	margin-right:-13rem;
+	margin-top: 10rem;
+}
+.section142divc1imgcon4{
+	float: right;
+	margin-right:-25.5rem;
+	margin-top: 15rem;
+}
+.section142divc1imgcon5{
+	float: right;
+	margin-right:-10rem;
+	margin-top: 26rem;
+}
+.section142divc1imgcon6{
+	float: right;
+	margin-right:10rem;
+	margin-top: 23rem;
+}
+.section142divc1imgcon{
+	margin-left: 2.5rem;
+}
+.section142divc1imgcon img{
+	height: 2.2rem;
+}
+
+.section142divc1imgcon{
+	height: 5rem;
+	width: 5rem;
+	background: url("../DESIGNING-UI/Ellipse 26.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	display: flex;
+	justify-content: center;align-items: center;
+
+}
+.section142divlastp1{
+	font-size: 2rem;
+	color: #58B5ED;
+	text-align: center;
+	margin-left: 50rem;
+}
+.section142divlastp2{
+	color: white;
+	text-align: center;
+	font-size: 1.7rem;
+	margin-top: -34rem;
+	/*padding-left: 10rem;*/
 }
 @media only screen and (max-width: 768px) {
 
@@ -829,7 +1048,7 @@ margin-bottom: 5rem;
 	margin-top: 5rem;
 	margin-right: 1rem;
 	margin-left: 1rem;
-	margin-bottom: 5rem;
+	margin-bottom: 1rem;
 }
 .section10col{
 	width: 100%;
@@ -843,6 +1062,219 @@ margin-bottom: 5rem;
 	height: 12rem;
 	margin-left: 0rem;
 	margin-right: 0rem;
+}
+.section10lastdiv{
+	background-image: url("../DESIGNING-UI/ui-Designing-2.png");
+	margin-right: 1rem;
+	margin-left: 1rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 7.5rem;
+	border-radius: 1rem;
+	box-shadow: 1px 2px 10px 6px rgba(0,0,0,0.26);
+-webkit-box-shadow: 1px 2px 10px 6px rgba(0,0,0,0.26);
+-moz-box-shadow: 1px 2px 10px 6px rgba(0,0,0,0.26);
+margin-bottom: 5rem;
+}
+.section10lastdiv p{
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+.section10btndiv{
+	background-image: url("../DESIGNING-UI/Rectangle 154.png");
+	background-repeat: no-repeat;
+	background-size: 90px 27px;
+	height: 2.7rem;
+	width: 9rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.2rem;
+	color: white;
+	margin-left: 3rem;
+	
+}
+.section10btndiv a{
+	text-decoration: none;
+	color: white;
+}
+.section11{
+	width: 100%;
+	height: 105rem;
+	background-image: url("../DESIGNING-UI/MOBILE/Group 1815-1.png");
+	background-repeat: no-repeat;
+	background-size:cover;
+	padding-top: 15rem;
+}
+.section11div1{
+	width: 100%;
+	background-image: url("../DESIGNING-UI/MOBILE/Group 4441.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	
+
+}
+.section11p{
+	margin-top: -13rem;
+	font-size: 1.6rem;
+}
+.section13{
+	width: 100%;
+	height: 10rem;
+	background: #58B5ED;
+	display: flex;justify-content: center;align-items: center;
+}
+.section13 p{
+	font-size: 1.2rem;
+	color: white;
+}
+.section13 a{
+	margin-left: 1rem;
+	text-decoration: none;
+	color: white;
+	font-size: 1rem;
+	padding: .4rem 1.7rem;
+	background: #58B5ED;
+	border-radius: 5rem;
+	border:1px solid white;
+}
+.section14{
+	width: 100%;
+	background: #1b2441;
+	padding-left: 2rem;
+	padding-top: 2rem;
+	overflow: hidden;
+	height: 170rem;
+}
+.section14col1 p{
+	color: #58B5ED;
+	font-size: 3.5rem;
+	padding-left: 1.3rem;
+}
+.section14colchild ul{
+	list-style-type: none;
+}
+.section14colchild ul li{
+	margin-bottom: 1rem;
+}
+.section14colchild ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 1.5rem;
+}
+.section14col2 p:nth-child(1){
+	color: #58B5ED;
+	font-size: 3rem;
+
+}
+.section14col2 p:nth-child(2){
+	color: white;
+	font-size: 1.5rem;
+	margin-top: 2rem;
+}
+.section14col2 p:nth-child(3){
+	color: white;
+	font-size: 1.5rem;
+}
+
+.section14col2c1{
+	font-size: 1.2rem;
+}
+.section14col2c1 img{
+	height: 2rem;
+	margin-bottom: -1.5rem;
+}
+.section14col2c1 p{
+	margin-left: 1rem;
+}
+.section14col2c2{
+	margin-left: 1rem;
+	display: flex;
+	align-items: center;
+	font-size: 1.2rem;
+}
+
+.section14col2c2 a{
+	margin-top: 3rem;
+	text-decoration: none;
+	margin-right: 3rem;
+	padding: 1rem 4rem;
+	border-radius: 2rem;
+	font-size: 1.4rem;
+}
+.section142div{
+	width: 100%;
+	height: 40rem;
+}
+.section142divc1{
+	margin-top: -20rem;
+	float: right;
+	height: 35rem;
+	width: 50rem;
+	background: url("../DESIGNING-UI/Path 200-1.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+
+
+}
+.section142divc1imgcon1{
+	float: right;
+	margin-right: 9rem;
+}
+.section142divc1imgcon2{
+	float: right;
+	margin-right: 3rem;
+	margin-top: 1rem;
+}
+.section142divc1imgcon3{
+	float: right;
+	margin-right:-13rem;
+	margin-top: 10rem;
+}
+.section142divc1imgcon4{
+	float: right;
+	margin-right:-25.5rem;
+	margin-top: 15rem;
+}
+.section142divc1imgcon5{
+	float: right;
+	margin-right:-10rem;
+	margin-top: 26rem;
+}
+.section142divc1imgcon6{
+	float: right;
+	margin-right:10rem;
+	margin-top: 23rem;
+}
+.section142divc1imgcon{
+	margin-left: 2.5rem;
+}
+.section142divc1imgcon img{
+	height: 2.2rem;
+}
+
+.section142divc1imgcon{
+	height: 5rem;
+	width: 5rem;
+	background: url("../DESIGNING-UI/Ellipse 26.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	display: flex;
+	justify-content: center;align-items: center;
+
+}
+.section142divlastp1{
+	font-size: 2rem;
+	color: #58B5ED;
+	text-align: center;
+	margin-left: 0rem;
+	margin-top: 25rem;
+}
+.section142divlastp2{
+	color: white;
+	font-size: 1rem;
+	margin-left: -1rem;
 }
 }
 
