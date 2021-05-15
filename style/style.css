@@ -556,6 +556,72 @@ margin-bottom: 5rem;
 .section11p{
 
 }
+.section12{
+	height: 60rem;
+	width: 100%;
+	background-image: url("../DESIGNING-UI/Group 6672.png");
+	background-repeat: no-repeat;
+	background-size:  cover;
+
+}
+.section12c1{
+	height: 100%;
+	width: 100%;
+	background-image: url("../DESIGNING-UI/Group 1814.png");
+	background-repeat: no-repeat;
+	background-size:  contain;
+}
+.section12c1c1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 4rem;
+}
+.section12c1c1 p{
+	font-size: 4rem;
+	font-weight: bold;
+}
+.section12c1c2{
+	width: 100%;
+	display: flex;
+	justify-content: center;align-items: center;
+
+
+}
+.section12c1c2c1{
+	height: 70rem;
+	width: 70rem;
+	background-image: url("../DESIGNING-UI/Group 1816.png");
+	background-repeat: no-repeat;
+	background-size:  contain;
+	margin-top: -4rem;
+}
+.section12c1c2c1c1{
+	width: 100%;
+	display: flex;justify-content: center;align-items: center;
+	padding-top: 13rem;
+}
+.section12c1c2c1c2{
+	width: 100%;
+	display: flex;justify-content: center;align-items: center;
+	margin-top: 3rem;
+	font-size: 1.6rem;
+	padding-left: 18rem;
+	padding-right: 16rem;
+	color: grey;
+}
+.section12c1c3{
+	margin-top: 10rem;
+	float: right;
+	margin-right: 16rem;
+}
+.section12c1c3img1{
+	height: 1.3rem;
+}
+.section12c1c3img2{
+	height: 2rem;
+	margin-left: 2rem;
+}
 .section13{
 	width: 100%;
 	height: 20rem;
@@ -1118,6 +1184,75 @@ margin-bottom: 5rem;
 .section11p{
 	margin-top: -13rem;
 	font-size: 1.6rem;
+}
+.section12{
+	height: 30rem;
+	width: 100%;
+	background-image: url("../DESIGNING-UI/Group 6672.png");
+	background-repeat: no-repeat;
+	background-size:  cover;
+
+}
+.section12c1{
+	height: 100%;
+	width: 100%;
+	background-image: url("../DESIGNING-UI/Group 1814.png");
+	background-repeat: no-repeat;
+	background-size:  contain;
+}
+.section12c1c1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 1rem;
+}
+.section12c1c1 p{
+	font-size: 2.5rem;
+	font-weight: bold;
+}
+.section12c1c2{
+	width: 100%;
+	display: flex;
+	justify-content: center;align-items: center;
+
+
+}
+.section12c1c2c1{
+	height: 80rem;
+	width: 80rem;
+	background-image: url("../DESIGNING-UI/Group 1816.png");
+	background-repeat: no-repeat;
+	background-size:  contain;
+	margin-top: -4rem;
+}
+.section12c1c2c1c1{
+	width: 100%;
+	display: flex;justify-content: center;align-items: center;
+	padding-top: 7rem;
+}
+.section12c1c2c1c1 img{
+	height: 7rem;
+}
+.section12c1c2c1c2{
+	width: 100%;
+	display: flex;justify-content: center;align-items: center;
+	margin-top: 1.5rem;
+	font-size: 1rem;
+	padding-left: 11rem;
+	padding-right: 9rem;
+	color: grey;
+}
+.section12c1c3{
+	margin-top: 4rem;
+	float: right;
+	margin-right: 9rem;
+}
+.section12c1c3img1{
+	height: 1.2rem;
+}
+.section12c1c3img2{
+	height: 1.6rem;
+	margin-left: 2rem;
 }
 .section13{
 	width: 100%;
