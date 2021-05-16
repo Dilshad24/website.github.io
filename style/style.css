@@ -791,7 +791,9 @@ margin-bottom: 5rem;
 	/*padding-left: 10rem;*/
 }
 @media only screen and (max-width: 768px) {
-
+/*body{
+	overflow-x: hidden;
+}*/
 	.section1{
 	width: 100%;
 	height: 100vh;
@@ -917,7 +919,11 @@ margin-bottom: 5rem;
 }
 
 .section3{
-	margin-top: 32rem;
+	margin-top: 28rem;
+	width: 100%;
+}
+.container-fluid111{
+	padding: 0px;
 }
 .section3p{
 	margin-left: 2rem;
@@ -929,12 +935,25 @@ margin-bottom: 5rem;
 	margin-left: 0rem;
 	margin-right: 0rem;
 	margin-top: 5rem;
+	overflow: hidden;
+
 }
-.section3col{
+.section6col{
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
+.section6col{
+	/*height: 39rem;*/
+	
+
+}
+/*
+.section3img13{
+display: block;
+  max-width: 20%;
+  height: auto;
+}*/
 .section3img3{
 	padding-top:0rem;
 }
@@ -1071,21 +1090,21 @@ margin-bottom: 5rem;
 margin-bottom: 5rem;
 }
 .section8 p{
-	font-size: .7rem;
+	font-size: .8rem;
 	padding-top: 1rem;
 }
 .section8btndiv{
 	background-image: url("../DESIGNING-UI/Rectangle 154.png");
 	background-repeat: no-repeat;
-	background-size: 75px 20px;
-	height: 2rem;
+	background-size: 75px 22px;
+	height: 2.2rem;
 	width: 7.5rem;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	font-size: 1rem;
 	color: white;
-	margin-left: 2rem;
+	margin-left: 3rem;
 	
 }
 .section8btndiv a{
@@ -1381,8 +1400,8 @@ margin-bottom: 5rem;
 }
 .section142divc1imgcon6{
 	float: right;
-	margin-right:10rem;
-	margin-top: 23rem;
+	margin-right:7rem;
+	margin-top: 22.7rem;
 }
 .section142divc1imgcon{
 	margin-left: 2.5rem;
