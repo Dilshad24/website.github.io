@@ -18,7 +18,7 @@ html {
 }
 body {
 }
-/* -----  section 1 starts   -------*/
+/*****                     s1                                  ****/
 .section1 {
   width: 100%;
   height: 140vh;
@@ -28,7 +28,7 @@ body {
   background-size: cover;
   padding-top: 5rem;
 }
-.section1imgdiv {
+.logoimgc {
   background-image: url("../DESIGNING-UI/cwslogo.png");
   background-repeat: no-repeat;
   background-size: contain;
@@ -69,36 +69,46 @@ body {
   text-decoration: none;
   color: white;
 }
-.section1row {
-  margin-top: 6rem;
-  padding-right: 14rem;
-  padding-left: 20rem;
+
+.section1col {
+  /* display: flex;
+	justify-content: center;
+	align-items: center; */
+  margin-top: 7rem;
+  height: 15rem;
+  width: 20rem;
 }
-.section1col1 {
+.section1row {
+  padding-right: 10rem;
+  padding-left: 15rem;
+}
+.section1colimgc1 {
+  height: 100%;
   background-image: url("../DESIGNING-UI/G (12).png");
   background-repeat: no-repeat;
   background-size: contain;
-  height: 17rem;
 }
-.section1col2 {
+.section1colimgc2 {
+  height: 100%;
   background-image: url("../DESIGNING-UI/G (13).png");
   background-repeat: no-repeat;
   background-size: contain;
-  height: 17rem;
 }
-.section1col3 {
+.section1colimgc3 {
+  height: 100%;
   background-image: url("../DESIGNING-UI/G (14).png");
   background-repeat: no-repeat;
   background-size: contain;
-  height: 17rem;
 }
-.section1col4 {
+.section1colimgc4 {
+  height: 100%;
   background-image: url("../DESIGNING-UI/G (15).png");
   background-repeat: no-repeat;
   background-size: contain;
+}
+.img11 {
   height: 17rem;
 }
-
 .imgdiv11 {
   width: 100%;
   margin-top: -7.5rem;
@@ -118,8 +128,8 @@ body {
   height: 7rem;
   margin-right: 30rem;
 }
-/* -----  section 1 ends   -------*/
-/* -----  section 2 starts   -------*/
+
+/***********                    s2                      ************/
 .section2 {
   width: 100%;
   height: 63rem;
@@ -145,28 +155,30 @@ body {
   padding-bottom: 4rem;
 }
 .section2colcon {
-  display: flex;
+  /* display: flex; */
   align-items: center;
   margin-left: 9.5rem;
 }
-.section2colcon img {
+.section2colconimgc {
   height: 2rem;
-  margin-top: -1.4rem;
+  background-image: url("../DESIGNING-UI/MOBILE/Group 4469.png");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
+
 .section2colconp1 {
   font-size: 2.2rem;
   margin-left: 5rem;
+  margin-top: -2.5rem;
 }
-.section2col2 {
-  margin-top: 2rem;
-  
+.section2col2imgc {
+  margin-top: 5rem;
+  height: 45rem;
+  background-image: url("../DESIGNING-UI/G (16).png");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
-.section2col2img{
-    height: 45rem;
-    background-image: url("../DESIGNING-UI/G (16).png");
-    background-repeat: no-repeat;
-    background-size: contain;
-  }
+
 .section2btndiv {
   background-image: url("../DESIGNING-UI/MOBILE/K (23).png");
   background-repeat: no-repeat;
@@ -192,8 +204,6 @@ body {
   margin-right: -4rem;
   margin-top: 1rem;
 }
-/* -----  section 2 ends   -------*/
-/* -----  section 13 starts   -------*/
 .imgdiv13 {
   width: 100%;
   margin-top: -5rem;
@@ -203,8 +213,6 @@ body {
   height: 15rem;
   margin-left: -8rem;
 }
-/* -----  section 13 ends   -------*/
-/* -----  section 3 starts   -------*/
 .section3 {
   margin-top: 10rem;
 }
@@ -220,37 +228,38 @@ body {
   margin-top: 5rem;
 }
 .section3col {
-  height: 70rem;
-  width: 100%;
+  margin-bottom: 4rem;
 }
-.section3col1 {
-  height: 70rem;
+.section3img1c {
+  height: 50rem;
   background-image: url("../DESIGNING-UI/G (1).png");
   background-repeat: no-repeat;
   background-size: contain;
+  background-position: center;
 }
-.section3col2 {
-  height: 70rem;
+.section3img2c {
+  height: 59rem;
   background-image: url("../DESIGNING-UI/G (2).png");
   background-repeat: no-repeat;
   background-size: contain;
-  margin-left: 10rem;
-  margin-top: 10rem;
+  background-position: center;
+  margin-top: 5rem;
 }
-.section3col3 {
-  height: 70rem;
+.section3img3c {
+  height: 55rem;
   background-image: url("../DESIGNING-UI/G (3).png");
   background-repeat: no-repeat;
   background-size: contain;
+  background-position: center;
 }
-.section3col4 {
-  height: 60rem;
+.section3img4c {
+  margin-top: 15rem;
+  height: 45rem;
   background-image: url("../DESIGNING-UI/G (4).png");
   background-repeat: no-repeat;
   background-size: contain;
-  margin-top: 15rem;
+  background-position: center;
 }
-
 .section3adiv1 {
   width: 100%;
 }
@@ -262,120 +271,41 @@ body {
   text-decoration: none;
   font-weight: bold;
 }
-.section3-1col {
-  height: 45rem;
-}
-.section3-1img1container {
-  height: 60rem;
-  background-image: url("../DESIGNING-UI/iPhone X.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-.section3-1img2container {
-  height: 60rem;
-  background-image: url("../DESIGNING-UI/iPhone X-1.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-.section3-1img3container {
-  height: 60rem;
-  background-image: url("../DESIGNING-UI/iPhone X-2.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-.section3-1img4container {
-  height: 60rem;
-  background-image: url("../DESIGNING-UI/iPhone X-3.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-.section3-1img4container {
-  height: 60rem;
-  background-image: url("../DESIGNING-UI/iPhone X-4.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-.section3-1img5container {
-  height: 60rem;
-  background-image: url("../DESIGNING-UI/iPhone X-5.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-.section3-1img6container {
-  height: 60rem;
-  background-image: url("../DESIGNING-UI/iPhone X-6.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-.section3-1img7container {
-  height: 60rem;
-  background-image: url("../DESIGNING-UI/iPhone X-7.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-.section3-1img8container {
-  height: 60rem;
-  background-image: url("../DESIGNING-UI/iPhone X-8.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-.section3-1img9container {
-  height: 60rem;
-  background-image: url("../DESIGNING-UI/iPhone X-9.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-.section3-1img10container {
-  height: 60rem;
-  background-image: url("../DESIGNING-UI/iPhone X-10.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-.section3-1img11container {
-  height: 60rem;
-  background-image: url("../DESIGNING-UI/iPhone X-11.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-.section3-1img12container {
-  height: 60rem;
-  background-image: url("../DESIGNING-UI/iPhone X-1.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-/* -----  section 3 ends  -------*/
+
 .section4 {
   margin-top: 2rem;
-  height: 25rem;
+  height: 0rem;
 }
 .section4div1 {
   width: 100%;
 }
-.section4img1containe {
+.section4img1c {
+  height: 48rem;
   width: 80rem;
   background-image: url("../DESIGNING-UI/G (5).png");
   background-repeat: no-repeat;
   background-size: contain;
-  float: left;
-  height: 60rem;
+  background-position: center;
   margin-left: 2rem;
 }
 .section4div2 {
   width: 100%;
 }
-.section4img2containe {
+.section4img2c {
+  float: right;
+  height: 48rem;
   width: 80rem;
   background-image: url("../DESIGNING-UI/G (6).png");
   background-repeat: no-repeat;
   background-size: contain;
-  float: right;
-  height: 60rem;
-  margin: 2rem;
+  background-position: center;
+  margin-right: 2rem;
 }
 
 .section5 {
   margin-top: 100rem;
 }
+
 .section6 {
   width: 100%;
   height: 130rem;
@@ -401,48 +331,49 @@ body {
 .section6col {
   margin-bottom: 4rem;
 }
-.section6img1container {
+.section6img1c {
+  height: 45rem;
   background-image: url("../DESIGNING-UI/design.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  height: 45rem;
 }
-.section6img2container {
+.section6img2c {
+  height: 45rem;
   background-image: url("../DESIGNING-UI/Task 10.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  height: 45rem;
 }
-.section6img3container {
+.section6img3c {
+  height: 45rem;
   background-image: url("../DESIGNING-UI/aba taano.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  height: 45rem;
 }
-.section6img4container {
+.section6img4c {
+  height: 45rem;
   background-image: url("../DESIGNING-UI/web 6.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  height: 45rem;
 }
-.section6img5container {
+.section6img5c {
+  height: 45rem;
   background-image: url("../DESIGNING-UI/verso (1).png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  height: 45rem;
 }
-.section6img6container {
+.section6img6c {
+  height: 45rem;
   background-image: url("../DESIGNING-UI/homepage.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  height: 45rem;
 }
+
 .section6adiv {
   width: 100%;
 }
@@ -452,9 +383,96 @@ body {
   font-size: 3rem;
   margin-right: 10rem;
 }
+.section3-1col {
+  height: 40rem;
+}
+.section3-1colimg1c {
+  height: 100%;
+  background-image: url("../DESIGNING-UI/iPhone X.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.section3-1colimg2c {
+  height: 100%;
+  background-image: url("../DESIGNING-UI/iPhone X-1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.section3-1colimg3c {
+  height: 100%;
+  background-image: url("../DESIGNING-UI/iPhone X-2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.section3-1colimg4c {
+  height: 100%;
+  background-image: url("../DESIGNING-UI/iPhone X-3.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.section3-1colimg5c {
+  height: 100%;
+  background-image: url("../DESIGNING-UI/iPhone X-4.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.section3-1colimg6c {
+  height: 100%;
+  background-image: url("../DESIGNING-UI/iPhone X-5.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.section3-1colimg7c {
+  height: 100%;
+  background-image: url("../DESIGNING-UI/iPhone X-6.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.section3-1colimg8c {
+  height: 100%;
+  background-image: url("../DESIGNING-UI/iPhone X-7.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.section3-1colimg9c {
+  height: 100%;
+  background-image: url("../DESIGNING-UI/iPhone X-8.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.section3-1colimg10c {
+  height: 100%;
+  background-image: url("../DESIGNING-UI/iPhone X-9.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.section3-1colimg11c {
+  height: 100%;
+  background-image: url("../DESIGNING-UI/iPhone X-10.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.section3-1colimg12c {
+  height: 100%;
+  background-image: url("../DESIGNING-UI/iPhone X-11.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
 .section7 {
   margin-top: 5rem;
-  height: 100vh;
+  height: 129rem;
   width: 100%;
 }
 .section7p1 {
@@ -472,42 +490,40 @@ body {
   margin-top: 0rem;
 }
 .section7col {
-  /* display: flex;
-	justify-content: center;
-	align-items: center; */
   margin-top: 10rem;
 }
-.section7img1container {
+.section7img1c {
   height: 45rem;
-  background-image: url("../DESIGNING-UI/MOBILE/Group 6669.png");
+  background-image: url("../DESIGNING-UI/G (17).png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
 }
-.section7img2container {
-  height: 45rem;
-  background-image: url("../DESIGNING-UI/MOBILE/Group 6666.png");
+.section7img2c {
+  height: 48rem;
+  background-image: url("../DESIGNING-UI/G (7).png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
 }
-.section7img3container {
+.section7img3c {
   height: 45rem;
-  background-image: url("../DESIGNING-UI/MOBILE/Group 6667.png");
+  background-image: url("../DESIGNING-UI/G (8).png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
 }
-.section7img4container {
-  height: 45rem;
-  background-image: url("../DESIGNING-UI/MOBILE/Group 6656.png");
+.section7img4c {
+  height: 48rem;
+  background-image: url("../DESIGNING-UI/G (18).png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
 }
+
 .section8 {
   width: 100%;
-  margin-top: 80rem;
+  margin-top: 10rem;
   margin-bottom: 10rem;
 }
 .section8maindiv {
@@ -549,34 +565,32 @@ body {
 .section8col {
   width: 100%;
 }
-.section8img1container {
+.section8img1c {
+  height: 67rem;
   background-image: url("../DESIGNING-UI/G (11).png");
   background-repeat: no-repeat;
-  background-size: contain;
   background-position: center;
-  height: 65rem;
+  background-size: contain;
 }
-.section8img2container {
+.section8img2c {
+  margin-top: 27rem;
+  height: 36rem;
   background-image: url("../DESIGNING-UI/MOBILE/Group 1737.png");
   background-repeat: no-repeat;
-  background-size: contain;
   background-position: center;
-  height: 45rem;
-  margin-top: 17rem;
+  background-size: contain;
 }
 
 .section9 {
   width: 100%;
-  margin-top: 0rem;
-}
-.section9imgcontainer {
+  margin-top: 5rem;
   background-image: url("../DESIGNING-UI/G (10).png");
   background-repeat: no-repeat;
-  background-size: contain;
   background-position: center;
-  width: 100%;
+  background-size: contain;
   height: 60rem;
 }
+
 .section10 {
   margin-top: 5rem;
 }
@@ -799,8 +813,15 @@ body {
 }
 .section12c1c2c1c1 {
   width: 100%;
-  /* display: flex;justify-content: center;align-items: center; */
+
   padding-top: 13rem;
+}
+.section12c1c2c1c1imgc {
+  height: 10rem;
+  background-image: url("../DESIGNING-UI/card-2314.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 .section12c1c2c1c2 {
   width: 100%;
@@ -813,41 +834,29 @@ body {
   padding-right: 16rem;
   color: grey;
 }
-.section12c1c2c1c1imgcontainer {
-  background-image: url("../DESIGNING-UI/card-2314.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  height: 9rem;
-}
 .section12c1c3 {
   margin-top: 10rem;
-  /* float: right; */
-  margin-right: -20rem;
+  width: 30rem;
+  padding-right: 10rem;
+  float: right;
 }
-.section12c1c3img1container {
+.section12c1c3img1c {
   height: 1.3rem;
   background-image: url("../DESIGNING-UI/Union-1.png");
   background-repeat: no-repeat;
-  background-position: center;
   background-size: contain;
+  background-position: center;
 }
-.section12c1c3img2container {
+.section12c1c3img2c {
   height: 2rem;
   background-image: url("../DESIGNING-UI/Union.png");
   background-repeat: no-repeat;
-  background-position: center;
   background-size: contain;
-  margin-left: 10rem;
+  background-position: center;
+  margin-left: 9rem;
   margin-top: -1.6rem;
 }
-.section12c1c3img1 {
-  height: 1.3rem;
-}
-.section12c1c3img2 {
-  height: 2rem;
-  margin-left: 2rem;
-}
+
 .section13 {
   width: 100%;
   height: 20rem;
@@ -945,7 +954,7 @@ body {
 .section142div {
   width: 100%;
   height: 40rem;
-  margin-top: -2rem;
+  margin-top: 0rem;
 }
 .section142divc1 {
   margin-top: -15rem;
@@ -955,7 +964,9 @@ body {
   background: url("../DESIGNING-UI/Path 200-1.png");
   background-repeat: no-repeat;
   background-size: contain;
+  margin-right: 6rem;
 }
+
 .section142divc1imgcon1 {
   float: right;
   margin-right: 9rem;
@@ -998,65 +1009,54 @@ body {
   background: url("../DESIGNING-UI/Ellipse 26.png");
   background-repeat: no-repeat;
   background-size: contain;
-  /* display: flex; */
-  justify-content: center;
-  align-items: center;
 }
-.section142divc1img7container {
+.section142divc1img6c {
+  height: 2rem;
+  background: url("../DESIGNING-UI/Icon awesome-twitter.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin-top: 1.5rem;
+}
+.section142divc1img5c {
+  height: 3rem;
   background: url("../DESIGNING-UI/Path 2.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  height: 3rem;
   margin-top: 1rem;
 }
-.section142divc1img6container {
-  background: url("../DESIGNING-UI/Group 24.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  height: 2.2rem;
-  margin-top: 1.12rem;
-}
-.section142divc1img5container {
+.section142divc1img4c {
+  height: 2rem;
   background: url("../DESIGNING-UI/Icon awesome-linkedin.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  height: 2.2rem;
-  margin-top: 1.12rem;
+  margin-top: 1.5rem;
 }
-.section142divc1img4container {
+.section142divc1img3c {
+  height: 2rem;
   background: url("../DESIGNING-UI/Icon awesome-instagram.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  height: 2.2rem;
-  margin-top: 1.12rem;
+  margin-top: 1.5rem;
 }
-.section142divc1img3container {
-  background: url("../DESIGNING-UI/Icon awesome-pinterest.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  height: 2.2rem;
-  margin-top: 1.12rem;
-}
-.section142divc1img2container {
-  background: url("../DESIGNING-UI/Icon awesome-pinterest.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  height: 2.2rem;
-  margin-top: 1.12rem;
-}
-.section142divc1img1container {
+.section142divc1img2c {
+  height: 2rem;
   background: url("../DESIGNING-UI/Group 24.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  height: 2.2rem;
-  margin-top: 1.12rem;
+  margin-top: 1.5rem;
+}
+.section142divc1img1c {
+  height: 2rem;
+  background: url("../DESIGNING-UI/Icon awesome-pinterest.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin-top: 1.5rem;
 }
 .section142divlastp1 {
   font-size: 2rem;
@@ -1068,25 +1068,21 @@ body {
   color: white;
   text-align: center;
   font-size: 1.7rem;
-  margin-top: -34rem;
+  margin-top: 0rem;
   /*padding-left: 10rem;*/
 }
-/*555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555*/
+/*9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999*/
+/*9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999*/
 @media only screen and (max-width: 768px) {
-  body {
-    /* overflow-x: hidden; */
-  }
+  /*body{
+	overflow-x: hidden;
+}*/
   .section1 {
     width: 100%;
     height: 100vh;
     padding-top: 3rem;
   }
-  .section1imgdiv {
-    margin-left: 3rem;
-    height: 5rem;
-  }
-  .logoimg {
-    margin-top: 3rem;
+  .logoimgc {
     margin-left: 3rem;
     height: 6rem;
   }
@@ -1115,25 +1111,17 @@ body {
     margin-top: 3rem;
   }
   .section1row {
-    margin-top: 1.5rem;
     padding-right: 4rem;
-    padding-left: 5rem;
+    padding-left: 4rem;
   }
-  .section1col1 {
-    margin-bottom: 2.5rem;
+  .section1col {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    height: 11rem;
+    width: 10rem;
+  }
+  .img11 {
     height: 10.5rem;
-  }
-  .section1col2 {
-    margin-bottom: 2.5rem;
-    height: 10.5rem;
-  }
-  .section1col3 {
-    margin-bottom: 2.5rem;
-    height: 10.5rem;
-  }
-  .section1col4 {
-    margin-bottom: 2.5rem;
-    height: 12rem;
   }
   .imgdiv11 {
     display: none;
@@ -1152,7 +1140,7 @@ body {
   }
   .section2 {
     width: 100%;
-    height: 90rem;
+    height: 89rem;
   }
   .section2row {
     width: 100%;
@@ -1173,18 +1161,20 @@ body {
     padding-bottom: 1.5rem;
   }
   .section2colcon {
-    display: flex;
-    align-items: center;
-    margin-left: 3rem;
+    margin-left: 2rem;
     width: 100%;
   }
-  .section2colcon img {
-    height: 1.6rem;
-    margin-top: -1rem;
+  .section2colconimgc {
+    height: 1.8rem;
+    background-image: url("../DESIGNING-UI/MOBILE/Group 4469.png");
+    background-repeat: no-repeat;
+    background-size: contain;
   }
+
   .section2colconp1 {
     font-size: 1.5rem;
-    margin-left: 1rem;
+    margin-left: 2.5rem;
+    margin-top: -2rem;
   }
 
   .section2btndiv {
@@ -1200,18 +1190,16 @@ body {
     color: white;
   }
   .section2col2 {
-	background-color:white;
-	width: 100%;
-    margin-top: 1rem;
-    padding-left: 6rem;
-  }	
-.section2col2img{
-    height: 28rem;
+  }
+  .section2col2imgc {
+    margin-top: 3rem;
+    height: 30rem;
     background-image: url("../DESIGNING-UI/G (16).png");
     background-repeat: no-repeat;
     background-size: contain;
+    margin-left: 4rem;
   }
-}
+
   .imgdiv13 {
     display: none;
   }
@@ -1232,8 +1220,63 @@ body {
   .section3row {
     margin-left: 0rem;
     margin-right: 0rem;
-    margin-top: 5rem;
+    margin-top: 4rem;
     overflow: hidden;
+  }
+  .section3col {
+    margin-bottom: -5rem;
+  }
+  .section3img1c {
+    height: 50rem;
+    background-image: url("../DESIGNING-UI/G (1).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+  .section3img2c {
+    height: 50rem;
+    background-image: url("../DESIGNING-UI/G (2).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-top: 0rem;
+  }
+  .section3img3c {
+    height: 55rem;
+    background-image: url("../DESIGNING-UI/G (3).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+  .section3img4c {
+    margin-top: -5rem;
+    height: 45rem;
+    background-image: url("../DESIGNING-UI/G (4).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+  .section4div1 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .section4img1c {
+    height: 35rem;
+    width: 100%;
+    background-image: url("../DESIGNING-UI/G (5).png");
+
+    margin-left: 0rem;
+  }
+  .section4div2 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .section4img2c {
+    float: none;
+    height: 27rem;
+    width: 100%;
+    background-image: url("../DESIGNING-UI/G (6).png");
+    margin-right: 0rem;
   }
 
   .section3img3 {
@@ -1242,37 +1285,10 @@ body {
   .section3img4 {
     padding-top: 0rem;
   }
-  .section3row {
-    margin-left: 2rem;
-    margin-right: 2rem;
-    margin-top: 5rem;
-  }
-  .section3col {
-    height: 35rem;
-    width: 100%;
-  }
-  .section3col1 {
-    height: 90rem;
-  }
-  .section3col2 {
-    height: 40rem;
-    margin-left: 0rem;
-    margin-top: 0rem;
-  }
-  .section3col3 {
-    height: 90rem;
-    margin-top: 10rem;
-  }
-  .section3col4 {
-    height: 29rem;
-    margin-top: 8rem;
-  }
-  .section3-1col {
-    height: 25rem;
-  }
+
   .section4 {
-    margin-top: 6rem;
-    height: 55rem;
+    margin-top: 1rem;
+    height: 65rem;
   }
   .section4div1 {
     width: 100%;
@@ -1280,23 +1296,23 @@ body {
     justify-content: center;
     align-items: center;
   }
-  .section4img1containe {
-    width: 40rem;
+  .section4img1 {
     float: none;
-    height: 30rem;
+    height: 23rem;
     margin-left: 0rem;
   }
   .section4div2 {
     width: 100%;
+    margin-top: 5rem;
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  .section4img2containe {
-    width: 40rem;
+
+  .section4img2 {
     float: none;
-    height: 30rem;
-    margin: 0rem;
+    height: 27rem;
+    margin-right: 0rem;
   }
   .section5 {
     margin-top: -10rem;
@@ -1306,7 +1322,7 @@ body {
   }
   .section6 {
     width: 100%;
-    height: 350rem;
+    height: 335rem;
     background-image: url("../DESIGNING-UI/MOBILE/Group 1815-1.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -1322,33 +1338,116 @@ body {
     padding-left: 3rem;
   }
   .section6row {
-    margin-left: 3rem;
-    margin-right: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
     margin-top: 7rem;
   }
   .section6col {
-    margin-bottom: 2rem;
+    width: 100%;
+    margin-bottom: 4rem;
   }
-
+  .section6img1c {
+    height: 40rem;
+    background-image: url("../DESIGNING-UI/design.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+  .section6img2c {
+    height: 40rem;
+    background-image: url("../DESIGNING-UI/Task 10.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+  .section6img3c {
+    height: 40rem;
+    background-image: url("../DESIGNING-UI/aba taano.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+  .section6img4c {
+    height: 40rem;
+    background-image: url("../DESIGNING-UI/web 6.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+  .section6img5c {
+    height: 40rem;
+    background-image: url("../DESIGNING-UI/verso (1).png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+  .section6img6c {
+    height: 40rem;
+    background-image: url("../DESIGNING-UI/homepage.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
   .section3adiv1 {
     display: none;
   }
-
-  .section6adiv {
-    width: 100%;
+  .section3-1col {
+    height: 25rem;
   }
-  .section6adiv a {
-    text-decoration: none;
-    float: right;
-    font-size: 3rem;
-    margin-right: 10rem;
+  .section3-1colimg1c {
+    height: 100%;
+    background-image: url("../DESIGNING-UI/iPhone X.png");
+  }
+  .section3-1colimg2c {
+    height: 100%;
+    background-image: url("../DESIGNING-UI/iPhone X-1.png");
+  }
+  .section3-1colimg3c {
+    height: 100%;
+    background-image: url("../DESIGNING-UI/iPhone X-2.png");
+  }
+  .section3-1colimg4c {
+    height: 100%;
+    background-image: url("../DESIGNING-UI/iPhone X-3.png");
+  }
+  .section3-1colimg5c {
+    height: 100%;
+    background-image: url("../DESIGNING-UI/iPhone X-4.png");
+  }
+  .section3-1colimg6c {
+    height: 100%;
+    background-image: url("../DESIGNING-UI/iPhone X-5.png");
+  }
+  .section3-1colimg7c {
+    height: 100%;
+    background-image: url("../DESIGNING-UI/iPhone X-6.png");
+  }
+  .section3-1colimg8c {
+    height: 100%;
+    background-image: url("../DESIGNING-UI/iPhone X-7.png");
+  }
+  .section3-1colimg9c {
+    height: 100%;
+    background-image: url("../DESIGNING-UI/iPhone X-8.png");
+  }
+  .section3-1colimg10c {
+    height: 100%;
+    background-image: url("../DESIGNING-UI/iPhone X-9.png");
+  }
+  .section3-1colimg11c {
+    height: 100%;
+    background-image: url("../DESIGNING-UI/iPhone X-10.png");
+  }
+  .section3-1colimg12c {
+    height: 100%;
+    background-image: url("../DESIGNING-UI/iPhone X-11.png");
   }
   .section7 {
     margin-top: 0rem;
   }
   .section7 {
     margin-top: 5rem;
-    height: 140rem;
+    height: 155rem;
     width: 100%;
   }
   .section7p1 {
@@ -1364,21 +1463,42 @@ body {
     line-height: 4rem;
   }
   .section7row {
-    margin-top: -5rem;
+    margin-top: -4rem;
   }
   .section7col {
-    margin-top: 0rem;
-    height: 38rem;
-  }
-
-  .section7img4container {
-    height: 37rem;
     margin-top: 5rem;
   }
-
+  .section7img1c {
+    height: 30rem;
+    background-image: url("../DESIGNING-UI/MOBILE/Group 6669.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+  .section7img2c {
+    height: 30rem;
+    background-image: url("../DESIGNING-UI/MOBILE/Group 6666.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+  .section7img3c {
+    height: 30rem;
+    background-image: url("../DESIGNING-UI/MOBILE/Group 6667.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+  .section7img4c {
+    height: 30rem;
+    background-image: url("../DESIGNING-UI/MOBILE/Group 6656.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
   .section8 {
     width: 100%;
-    margin-top: 40rem;
+    margin-top: 10rem;
     margin-bottom: 1rem;
   }
   .section8maindiv {
@@ -1420,43 +1540,32 @@ body {
   }
   .section8col {
     width: 100%;
-    height: 20rem;
   }
-  .section8img1container {
+  .section8img1c {
+    height: 30rem;
     background-image: url("../DESIGNING-UI/G (11).png");
     background-repeat: no-repeat;
-    background-size: contain;
     background-position: center;
-    height: 40rem;
+    background-size: contain;
   }
-  .section8img2container {
+  .section8img2c {
+    margin-top: 0rem;
+    height: 36rem;
     background-image: url("../DESIGNING-UI/MOBILE/Group 1737.png");
     background-repeat: no-repeat;
-    background-size: contain;
     background-position: center;
-    height: 30rem;
-    margin-top: 20rem;
-  }
-  .section8img1 {
-    height: 40rem;
-    float: none;
-  }
-  .section8img2 {
-    padding-top: 2rem;
+    background-size: contain;
   }
   .section9 {
     width: 100%;
-    margin-top: 0rem;
-    margin-top: 30rem;
-  }
-  .section9imgcontainer {
+    margin-top: 5rem;
     background-image: url("../DESIGNING-UI/G (10).png");
     background-repeat: no-repeat;
-    background-size: contain;
     background-position: center;
-    width: 100%;
-    height: 30rem;
+    background-size: contain;
+    height: 20rem;
   }
+
   .section10 {
     margin-top: 2rem;
   }
@@ -1574,7 +1683,6 @@ body {
     justify-content: center;
     align-items: center;
   }
-
   .section12c1c2c1 {
     height: 80rem;
     width: 80rem;
@@ -1584,19 +1692,18 @@ body {
     margin-top: -4rem;
   }
   .section12c1c2c1c1 {
-    /* width: 100%; */
-    /* display: flex;justify-content: center;align-items: center; */
+    width: 100%;
     padding-top: 7rem;
   }
-  .section12c1c2c1c1imgcontainer {
+  .section12c1c2c1c1imgc {
+    height: 7rem;
     background-image: url("../DESIGNING-UI/card-2314.png");
     background-repeat: no-repeat;
-    background-position: center;
     background-size: contain;
-    height: 7rem;
+    background-position: center;
   }
-
   .section12c1c2c1c2 {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1608,23 +1715,27 @@ body {
   }
   .section12c1c3 {
     margin-top: 4rem;
-    margin-right: -1rem;
+    float: right;
+    width: 30rem;
+    padding-right: 5rem;
   }
-  .section12c1c3img1container {
+  .section12c1c3img1c {
     height: 1.1rem;
+    background-image: url("../DESIGNING-UI/Union-1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
   }
-  .section12c1c3img2container {
-    height: 1.3rem;
-    margin-left: 2rem;
-    margin-top: -1.2rem;
-  }
-  .section12c1c3img1 {
-    height: 1.2rem;
-  }
-  .section12c1c3img2 {
+  .section12c1c3img2c {
     height: 1.6rem;
-    margin-left: 0rem;
+    background-image: url("../DESIGNING-UI/Union.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-left: 7rem;
+    margin-top: -1.3rem;
   }
+
   .section13 {
     width: 100%;
     height: 10rem;
@@ -1723,6 +1834,7 @@ body {
     background: url("../DESIGNING-UI/Path 200-1.png");
     background-repeat: no-repeat;
     background-size: contain;
+    margin-right: 0rem;
   }
   .section142divc1imgcon1 {
     float: right;
@@ -1756,85 +1868,72 @@ body {
   .section142divc1imgcon {
     margin-left: 2.5rem;
   }
-  .section142divc1imgcon img {
-    height: 2.2rem;
+  .section142divc1img6c {
+    height: 2rem;
+    background: url("../DESIGNING-UI/Icon awesome-twitter.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-top: 1.5rem;
   }
-
+  .section142divc1img5c {
+    height: 3rem;
+    background: url("../DESIGNING-UI/Path 2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-top: 1rem;
+  }
+  .section142divc1img4c {
+    height: 2rem;
+    background: url("../DESIGNING-UI/Icon awesome-linkedin.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-top: 1.5rem;
+  }
+  .section142divc1img3c {
+    height: 2rem;
+    background: url("../DESIGNING-UI/Icon awesome-instagram.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-top: 1.5rem;
+  }
+  .section142divc1img2c {
+    height: 2rem;
+    background: url("../DESIGNING-UI/Group 24.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-top: 1.5rem;
+  }
+  .section142divc1img1c {
+    height: 2rem;
+    background: url("../DESIGNING-UI/Icon awesome-pinterest.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-top: 1.5rem;
+  }
   .section142divc1imgcon {
     height: 5rem;
     width: 5rem;
     background: url("../DESIGNING-UI/Ellipse 26.png");
     background-repeat: no-repeat;
     background-size: contain;
-    /* display: flex;
-	justify-content: center;align-items: center; */
-  }
-  .section142divc1img7container {
-    background: url("../DESIGNING-UI/Path 2.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    height: 3rem;
-    margin-top: 1rem;
-  }
-  .section142divc1img6container {
-    background: url("../DESIGNING-UI/Group 24.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    height: 2.2rem;
-    margin-top: 1.12rem;
-  }
-  .section142divc1img5container {
-    background: url("../DESIGNING-UI/Icon awesome-linkedin.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    height: 2.2rem;
-    margin-top: 1.12rem;
-  }
-  .section142divc1img4container {
-    background: url("../DESIGNING-UI/Icon awesome-instagram.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    height: 2.2rem;
-    margin-top: 1.12rem;
-  }
-  .section142divc1img3container {
-    background: url("../DESIGNING-UI/Icon awesome-pinterest.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    height: 2.2rem;
-    margin-top: 1.12rem;
-  }
-  .section142divc1img2container {
-    background: url("../DESIGNING-UI/Icon awesome-pinterest.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    height: 2.2rem;
-    margin-top: 1.12rem;
-  }
-  .section142divc1img1container {
-    background: url("../DESIGNING-UI/Group 24.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    height: 2.2rem;
-    margin-top: 1.12rem;
   }
   .section142divlastp1 {
     font-size: 2rem;
     color: #58b5ed;
     text-align: center;
     margin-left: 0rem;
-    margin-top: 25rem;
+    margin-top: 20rem;
   }
   .section142divlastp2 {
     color: white;
     font-size: 1rem;
     margin-left: -1rem;
+    margin-top: -20rem;
   }
 }
