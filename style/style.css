@@ -964,7 +964,7 @@ body {
   background: url("../DESIGNING-UI/Path 200-1.png");
   background-repeat: no-repeat;
   background-size: contain;
-  margin-right: 0rem;
+  margin-right: -6rem;
 }
 
 .section142divc1imgcon1 {
@@ -1120,6 +1120,18 @@ body {
     height: 11rem;
     width: 10rem;
   }
+  .section1colimgc1 {
+	background-image: url("../DESIGNING-UI/MOBILE/Group 6582.png");
+  }
+  .section1colimgc2 {
+	background-image: url("../DESIGNING-UI/MOBILE/Group 6583.png");
+  }
+  .section1colimgc3 {
+	background-image: url("../DESIGNING-UI/MOBILE/Group 6584.png");
+  }
+  .section1colimgc4 {
+	background-image: url("../DESIGNING-UI/MOBILE/Group 6585.png");
+  }
   .img11 {
     height: 10.5rem;
   }
@@ -1194,7 +1206,7 @@ body {
   .section2col2imgc {
     margin-top: 3rem;
     height: 30rem;
-    background-image: url("../DESIGNING-UI/G (16).png");
+    background-image: url("../DESIGNING-UI/MOBILE/Group 6602.png");
     background-repeat: no-repeat;
     background-size: contain;
     margin-left: 4rem;
@@ -1228,14 +1240,14 @@ body {
   }
   .section3img1c {
     height: 50rem;
-    background-image: url("../DESIGNING-UI/G (1).png");
+    background-image: url("../DESIGNING-UI/MOBILE/Group 6659.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
   }
   .section3img2c {
     height: 50rem;
-    background-image: url("../DESIGNING-UI/G (2).png");
+    background-image: url("../DESIGNING-UI/MOBILE/Group 6660.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -1243,7 +1255,7 @@ body {
   }
   .section3img3c {
     height: 55rem;
-    background-image: url("../DESIGNING-UI/G (3).png");
+    background-image: url("../DESIGNING-UI/MOBILE/Group 6661.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -1251,7 +1263,7 @@ body {
   .section3img4c {
     margin-top: -5rem;
     height: 45rem;
-    background-image: url("../DESIGNING-UI/G (4).png");
+    background-image: url("../DESIGNING-UI/MOBILE/Group 6662.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -1263,7 +1275,7 @@ body {
   .section4img1c {
     height: 35rem;
     width: 100%;
-    background-image: url("../DESIGNING-UI/G (5).png");
+    background-image: url("../DESIGNING-UI/MOBILE/Group 6663.png");
 
     margin-left: 0rem;
   }
@@ -1275,7 +1287,7 @@ body {
     float: none;
     height: 27rem;
     width: 100%;
-    background-image: url("../DESIGNING-UI/G (6).png");
+    background-image: url("../DESIGNING-UI/MOBILE/Group 6664.png");
     margin-right: 0rem;
   }
 
@@ -1348,42 +1360,42 @@ body {
   }
   .section6img1c {
     height: 40rem;
-    background-image: url("../DESIGNING-UI/design.png");
+    background-image: url("../DESIGNING-UI/MOBILE/design.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
   }
   .section6img2c {
     height: 40rem;
-    background-image: url("../DESIGNING-UI/Task 10.png");
+    background-image: url("../DESIGNING-UI/MOBILE/Task 10.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
   }
   .section6img3c {
     height: 40rem;
-    background-image: url("../DESIGNING-UI/aba taano.png");
+    background-image: url("../DESIGNING-UI/MOBILE/aba taano.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
   }
   .section6img4c {
     height: 40rem;
-    background-image: url("../DESIGNING-UI/web 6.png");
+    background-image: url("../DESIGNING-UI/MOBILE/web 6.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
   }
   .section6img5c {
     height: 40rem;
-    background-image: url("../DESIGNING-UI/verso (1).png");
+    background-image: url("../DESIGNING-UI/MOBILE/verso (1).png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
   }
   .section6img6c {
     height: 40rem;
-    background-image: url("../DESIGNING-UI/homepage.png");
+    background-image: url("../DESIGNING-UI/MOBILE/homepage.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -1396,51 +1408,51 @@ body {
   }
   .section3-1colimg1c {
     height: 100%;
-    background-image: url("../DESIGNING-UI/iPhone X.png");
+    background-image: url("../DESIGNING-UI/MOBILE/iPhone X.png");
   }
   .section3-1colimg2c {
     height: 100%;
-    background-image: url("../DESIGNING-UI/iPhone X-1.png");
+    background-image: url("../DESIGNING-UI/MOBILE/iPhone X-1.png");
   }
   .section3-1colimg3c {
     height: 100%;
-    background-image: url("../DESIGNING-UI/iPhone X-2.png");
+    background-image: url("../DESIGNING-UI/MOBILE/iPhone X-2.png");
   }
   .section3-1colimg4c {
     height: 100%;
-    background-image: url("../DESIGNING-UI/iPhone X-3.png");
+    background-image: url("../DESIGNING-UI/MOBILE/iPhone X-3.png");
   }
   .section3-1colimg5c {
     height: 100%;
-    background-image: url("../DESIGNING-UI/iPhone X-4.png");
+    background-image: url("../DESIGNING-UI/MOBILE/iPhone X-4.png");
   }
   .section3-1colimg6c {
     height: 100%;
-    background-image: url("../DESIGNING-UI/iPhone X-5.png");
+    background-image: url("../DESIGNING-UI/MOBILE/iPhone X-5.png");
   }
   .section3-1colimg7c {
     height: 100%;
-    background-image: url("../DESIGNING-UI/iPhone X-6.png");
+    background-image: url("../DESIGNING-UI/MOBILE/iPhone X-6.png");
   }
   .section3-1colimg8c {
     height: 100%;
-    background-image: url("../DESIGNING-UI/iPhone X-7.png");
+    background-image: url("../DESIGNING-UI/MOBILE/iPhone X-7.png");
   }
   .section3-1colimg9c {
     height: 100%;
-    background-image: url("../DESIGNING-UI/iPhone X-8.png");
+    background-image: url("../DESIGNING-UI/MOBILE/iPhone X-8.png");
   }
   .section3-1colimg10c {
     height: 100%;
-    background-image: url("../DESIGNING-UI/iPhone X-9.png");
+    background-image: url("../DESIGNING-UI/MOBILE/iPhone X-9.png");
   }
   .section3-1colimg11c {
     height: 100%;
-    background-image: url("../DESIGNING-UI/iPhone X-10.png");
+    background-image: url("../DESIGNING-UI/MOBILE/iPhone X-10.png");
   }
   .section3-1colimg12c {
     height: 100%;
-    background-image: url("../DESIGNING-UI/iPhone X-11.png");
+    background-image: url("../DESIGNING-UI/MOBILE/iPhone X-11.png");
   }
   .section7 {
     margin-top: 0rem;
@@ -1543,7 +1555,7 @@ body {
   }
   .section8img1c {
     height: 30rem;
-    background-image: url("../DESIGNING-UI/G (11).png");
+    background-image: url("../DESIGNING-UI/MOBILE/Group 4462.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
